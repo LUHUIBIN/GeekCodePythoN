@@ -5,7 +5,7 @@ from datetime import datetime
 def getWeather(canvas):
     # get your personal api from https://openweathermap.org
     city = textField.get()
-    api = "http://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=e990a341618c60691023c3e9f9d869c7"
+    api = "http://api.openweathermap.org/data/2.5/weather?q="+city+"&appid={your_weather_api}"
     try:
         # decode json by https://jsoneditoronline.org
         json_data = requests.get(api).json()
