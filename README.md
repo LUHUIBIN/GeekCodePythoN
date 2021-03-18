@@ -1,3 +1,3 @@
 # GeekCodePython
 
-about weather api
+cool code  
